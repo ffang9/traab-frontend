@@ -1,0 +1,82 @@
+.h6 { // some extensions for the tachyons height and width scale
+    height:32rem
+}
+
+.h7 {
+    height:64rem
+}
+
+.w6 { // some extensions for the tachyons height and width scale
+    width:32rem
+}
+
+.w7 {
+    width:64rem
+}
+
+.h-40 {
+    height: 40%;
+}
+
+.h-90 {
+    height: 90%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-65 {
+    width: 65%;
+}
+
+.bg-lg-dark-blue {
+    background-image: linear-gradient(rgba(53,126,221,0.9), rgba(0,68,158,0.9));
+}
+
+.bg-lg-dark-red {
+    background-image: linear-gradient(rgba(255,65,54,0.9), rgba(231,4,15,0.9));
+}
+
+.bg-lg-mid-gray {
+    background-image: linear-gradient(rgba(153,153,153,0.9), rgba(85,85,85,0.9));
+}
+
+.bg-dark-opaque {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.glow-hover {
+    transition: opacity .15s ease-in;
+}
+
+.glow-hover:hover {
+    opacity: 1;
+    transition: opacity .15s ease-in;
+}
+
+.glow-hover:active {
+    opacity: 0.5;
+    transition: opacity .1s ease-in;
+}
+
+.glow-yellow {
+    transition: color 0.3s ease-in;
+}
+
+.glow-yellow:hover {
+    color: yellow;
+    transition: color 0.3s ease-in;
+}
+
+.bg-center { 
+    background-repeat: no-repeat; background-position: center center; 
+}
+
+.z-n1 { z-index: -1; }
+.z-0 { z-index: 0; }
+.z-1 { z-index: 1; }
+.z-2 { z-index: 2; }
+.z-3 { z-index: 3; }
+.z-4 { z-index: 4; }
+.z-5 { z-index: 5; }

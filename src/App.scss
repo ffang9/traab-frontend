@@ -1,0 +1,16 @@
+@use "./styles/partials/typography";
+@use "./styles/partials/tachyonsExtensions";
+
+body {
+    font-family: Encode Sans SC;
+    color: white;
+}
+
+textarea, input {
+    -webkit-appearance: none;
+    outline: none;
+}
+
+canvas {
+  pointer-events:none; // prevent canvas from interfereing with buttons
+}
