@@ -15,7 +15,7 @@ import traab from "../../assets/images/traab.png"
 import bomb1 from "../../assets/images/bomb1.png"
 import githubIcon from "../../assets/images/github-icon.png"
 
-const ENDPOINT = "https://traab-backend.herokuapp.com:8080";
+const ENDPOINT = "https://traab-backend.herokuapp.com:443";
 
 const customStyles = {
     overlay: {
@@ -81,8 +81,6 @@ const GameLobby = () => {
             x: bombImgRef.current.getBoundingClientRect().left,
             y: bombImgRef.current.getBoundingClientRect().bottom
         };
-        console.log(bombImgRef.current.getBoundingClientRect().left)
-        console.log(bombImgRef.current.getBoundingClientRect().bottom)
         let circles = [];
         let colors = ["#FF9666", "#FFE184", "#F5E9BE"];
         createCircles = (amount) => {
