@@ -155,7 +155,7 @@ const GameBar = ( { timerBegan, timer, userId, roomId, phase, playerList, subroo
     }
 
     const copyRoomLink = () => {
-        const roomLink = `http://localhost:3000/room/${roomId}`
+        const roomLink = `https://traab-backend.herokuapp.com/room/${roomId}`
         navigator.clipboard.writeText(roomLink);
     }
 

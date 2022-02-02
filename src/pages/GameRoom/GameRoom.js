@@ -30,7 +30,7 @@ const GameRoom = ( props ) => {
     const [haveLeader, setHaveLeader] = useState(false);
     const [haveHostageThisTurn, setHaveHostageThisTurn] = useState(false);
     const [joinAccepted, setJoinAccepted] = useState(false);
-    const ENDPOINT = "https://traab-backend.herokuapp.com:443";
+    const ENDPOINT = "https://traab-backend.herokuapp.com";
 
     const history = useHistory();
 
