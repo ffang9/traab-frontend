@@ -1,1 +1,5 @@
-A synchronized, multiplayer and interactive web adaptation of the popular social deduction party game Two Rooms and a Boom with large amounts of game logic, a lobby and invite system using React with hooks, Node, socket.io and Tachyons
+# Two Rooms and a Boom
+
+A synchronized, multiplayer and interactive web adaptation of the popular social deduction party game Two Rooms and a Boom with a lobby and invite system using React, Node, socket.io and Tachyons
+
+Current live site can be found [here](https://traab-frontend.herokuapp.com/)
